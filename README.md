@@ -69,7 +69,24 @@ MaskGCT generates high-quality, intelligible, and similar speech in a parallel m
 
 ---
 
-### 5. Downloading the Models
+### 5. Installing PyTorch
+
+To install PyTorch, follow these steps based on your system's configuration:
+
+1. Visit the [official PyTorch website](https://pytorch.org/get-started/locally/) to get the latest installation command tailored to your system.
+2. Use the following command for a standard installation with CUDA (GPU support):
+   ```bash
+   # If you have an NVIDIA GPU and want to use CUDA
+   conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+   ```
+3. Or, if you want to use the CPU version:
+   ```bash
+   conda install pytorch torchvision torchaudio cpuonly -c pytorch
+   ```
+
+---
+
+### 6. Downloading the Models
 
 1. Download the pre-trained models from [this link](https://drive.google.com/file/d/1WRySDFvSvAsbReyYJWOOnHcYkQeDSDXt/view?usp=sharing).
 2. Unzip the downloaded file and place the contents inside the repository.
