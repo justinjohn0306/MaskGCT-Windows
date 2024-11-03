@@ -77,7 +77,7 @@ To install PyTorch, follow these steps based on your system's configuration:
 2. Use the following command for a standard installation with CUDA (GPU support):
    ```bash
    # If you have an NVIDIA GPU and want to use CUDA
-   conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+   conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
    ```
 3. Or, if you want to use the CPU version:
    ```bash
