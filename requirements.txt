@@ -27,7 +27,6 @@ pyworld
 py3langid==0.2.2
 LangSegment
 onnxruntime-gpu
-onnxruntime
 pyopenjtalk
 pykakasi
 openai-whisper
