@@ -3,7 +3,7 @@
 
 MaskGCT-Windows is a Windows-compatible implementation of **MaskGCT**: a state-of-the-art, zero-shot, non-autoregressive Text-to-Speech (TTS) model that eliminates the need for explicit text-speech alignment and duration prediction. This implementation allows users to leverage the model's powerful capabilities in a Windows environment.
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2409.00750) [![HuggingFace Model](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-model-yellow)](https://huggingface.co/amphion/maskgct) [![HuggingFace Demo](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-demo-pink)](https://huggingface.co/spaces/amphion/maskgct) [![Key Features](https://img.shields.io/badge/README-Key%20Features-blue)](https://github.com/open-mmlab/Amphion/blob/main/models/tts/maskgct/README.md)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2409.00750) [![HuggingFace Model](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-model-yellow)](https://huggingface.co/amphion/maskgct) [![HuggingFace Demo](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-demo-pink)](https://huggingface.co/spaces/amphion/maskgct) [![Key Features](https://img.shields.io/badge/README-Key%20Features-blue)](https://github.com/open-mmlab/Amphion/blob/main/models/tts/maskgct/R...
 
 ---
 
@@ -83,6 +83,8 @@ To install PyTorch, follow these steps based on your system's configuration:
    ```bash
    conda install pytorch torchvision torchaudio cpuonly -c pytorch
    ```
+
+**Note**: Ensure that the PyTorch version you are installing matches the CUDA version installed on your system. This is crucial for the proper installation and functioning of `onnxruntime`. Additionally, if you don't already have CUDA and cuDNN installed on your system, download and install them from the [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads).
 
 ---
 
