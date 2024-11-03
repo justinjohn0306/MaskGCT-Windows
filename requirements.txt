@@ -1,3 +1,4 @@
+spaces
 json5
 numpy==1.26.0
 setuptools
