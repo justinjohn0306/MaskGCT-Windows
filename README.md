@@ -3,7 +3,7 @@
 
 MaskGCT-Windows is a Windows-compatible implementation of **MaskGCT**: a state-of-the-art, zero-shot, non-autoregressive Text-to-Speech (TTS) model that eliminates the need for explicit text-speech alignment and duration prediction. This implementation allows users to leverage the model's powerful capabilities in a Windows environment.
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2409.00750) [![HuggingFace Model](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-model-yellow)](https://huggingface.co/amphion/maskgct) [![HuggingFace Demo](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-demo-pink)](https://huggingface.co/spaces/amphion/maskgct) [![Key Features](https://img.shields.io/badge/README-Key%20Features-blue)](https://github.com/open-mmlab/Amphion/blob/main/models/tts/maskgct/R...
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2409.00750) [![HuggingFace Model](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-model-yellow)](https://huggingface.co/amphion/maskgct) [![HuggingFace Demo](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-demo-pink)](https://huggingface.co/spaces/amphion/maskgct) [![Key Features](https://img.shields.io/badge/README-Key%20Features-blue)](https://github.com/open-mmlab/Amphion/blob/main/models/tts/maskgct/README.md)
 
 ---
 
