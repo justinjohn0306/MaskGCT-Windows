@@ -26,9 +26,9 @@ omegaconf
 pyworld
 py3langid==0.2.2
 LangSegment
-git+https://github.com/justinjohn0306/phonemizer
 onnxruntime-gpu
 onnxruntime
 pyopenjtalk
 pykakasi
 openai-whisper
+git+https://github.com/justinjohn0306/phonemizer
