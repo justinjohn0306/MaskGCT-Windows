@@ -6,7 +6,7 @@ ruamel.yaml
 tqdm 
 tensorboard
 tensorboardX
-transformers===4.41.1
+transformers===4.48.0
 encodec
 black==24.3.0
 g2p_en
